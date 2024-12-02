@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "chat-app",
   "version": "1.0.0",
@@ -14,3 +15,21 @@
     "nodemon": "^3.1.7"
   }
 }
+=======
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+>>>>>>> d857c9b778be58c7957f17e4e24c19259bea24e6
